@@ -1,19 +1,19 @@
-import React, { Component, useState } from 'react';
+import React, { Component} from 'react';
 import emailjs from 'emailjs-com';
 
 class Contact extends Component{
    render(){
       if(this.props.data){
          var name = this.props.data.name;
-         var profilepic= "images/"+this.props.data.image;
-         var bio = this.props.data.bio;
-         var street = this.props.data.address.street;
+         //var profilepic= "images/"+this.props.data.image;
+         //var bio = this.props.data.bio;
+         //var street = this.props.data.address.street;
          var city = this.props.data.address.city;
-         var state = this.props.data.address.state;
-         var zip = this.props.data.address.zip;
+         //var state = this.props.data.address.state;
+         //var zip = this.props.data.address.zip;
          var phone= this.props.data.phone;
          var email = this.props.data.email;
-         var resumeDownload = this.props.data.resumedownload;
+         //var resumeDownload = this.props.data.resumedownload;
        }
 
 // const Contact = ({ data }) => {
@@ -35,11 +35,9 @@ class Contact extends Component{
          console.log(error.text);
      });
      e.target.reset()
+     alert("Your Message has been sent!")
     }
-    function alertMessage(){
-       alert("Your Message has been sent!")
-    }
-    
+        
 
     return (
       <section id="contact">
@@ -68,30 +66,30 @@ class Contact extends Component{
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input  type="text" defaultValue="" size="35" id="contactName" name="name" />
+						   <input  type="text" defaultValue="" size="35" id="contactName" name="name" required />
                      {/* onChange={e => setName(e.target.value)} */}
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input  type="text" defaultValue="" size="35" id="contactEmail" name="email" />
+						   <input  type="email" defaultValue="" size="35" id="contactEmail" name="email" required/>
                      {/* onChange={e=> setEmail(e.target.value)} */}
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input  type="text" defaultValue="" size="35" id="contactSubject" name="subject" />
+						   <input  type="text" defaultValue="" size="35" id="contactSubject" name="subject" required />
                      {/* onChange={e => setSubject(e.target.value)} */}
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea   cols="50" rows="15" id="contactMessage" name="message"></textarea>
+                     <textarea   cols="50" rows="15" id="contactMessage" name="message" required></textarea>
                      {/* onChange={e => setMessage(e.target.value)} */}
                   </div>
 
                   <div>
-                     <button type='submit'value="Send" className="submit"onClick={alertMessage}>Submit</button>
+                     <button type='submit'value="Send" className="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
