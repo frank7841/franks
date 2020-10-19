@@ -77,7 +77,7 @@ class Contact extends Component{
                   </div>
                   <div>
 						   <label htmlFor="tel">phone <span className="required">*</span></label>
-						   <input  type="tel" defaultValue="" size="35" id="contactEmail" name="phone" required/>
+						   <input  type="tel" defaultValue="" size="35" id="tel" name="phone" required/>
                      {/* onChange={e=> setEmail(e.target.value)} */}
                   </div>
 
