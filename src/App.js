@@ -1,9 +1,9 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component } from 'react';
 //import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
 //import redux component
-import{Provider}from "react-redux";
+// import{Provider}from "react-redux";
 import store from "./store";
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -12,17 +12,17 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
-import Chat from './Components/chat/Chat';
+// import Chat from './Components/chat/Chat';
 import {createSession} from './actions/watson'
 
 //import axios
-import axios from 'axios';
+// import axios from 'axios';
 
-if (localStorage.session) {
-  axios.defaults.headers.common["session_id"]= localStorage.session;
-}else{
-  delete axios.defaults.headers.common["session_id"];
-}
+// if (localStorage.session) {
+//   axios.defaults.headers.common["session_id"]= localStorage.session;
+// }else{
+//   delete axios.defaults.headers.common["session_id"];
+// }
 
 
 class App extends Component {
@@ -75,7 +75,7 @@ class App extends Component {
         <Footer data={this.state.resumeData.main}/>
        
         {/* <Provider store ={store}> */}
-         <Chat store = {store}/>
+         {/* <Chat store = {store}/> */}
         {/* </Provider> */}
      
         </div>

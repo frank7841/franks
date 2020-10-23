@@ -116,7 +116,7 @@ class Contact extends Component{
                   <p className="address">
 						   <span>{name}</span><br/>
 						   <span>{city}</span><br/>
-						   <span><a href="tell:+254790943918"> {phone}</a></span><br/>
+						   <span><a href="tel:+254790943918"> {phone}</a></span><br/>
                      <span><a href="mailto:simiyu.frankline34@gmail.com">{email}</a></span>
 					   </p>
 				   </div>
