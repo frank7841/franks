@@ -27,10 +27,11 @@ const Chat = ({ chat, userMessage, sendMessage }) => {
   };
 
   return (
+    <section id = "chat_box">
     <div className="chat">
       <h1>Chatty the Chatbot</h1>
       {/* Handle Messages */}
-      <div class="historyContainer">
+      <div className="historyContainer">
         {chat.length === 0
           ? ""
           : chat.map((msg) => <div className={msg.type}>{msg.message}</div>)}
@@ -44,6 +45,7 @@ const Chat = ({ chat, userMessage, sendMessage }) => {
         value={message}
       ></input>
     </div>
+    </section>
   );
 };
 const mapStateToProps = (state) => ({

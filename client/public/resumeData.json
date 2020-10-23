@@ -2,10 +2,9 @@
   "main": {
     "name": "Frankline Simiyu",
     "occupation": "Android and FullStack developer",
-    "description": "Tech enthusiast,Founder . #Neatlabs",
+    "description": "Tech enthusiast,Founder . #Neatlabs...",
     "image": "profpic.jpg",
     "bio": "My name is Frank , I'm an Android, FullStack developer and a tech enthusiast with a deep-rooted passion for solving day-to-day problems through the art of software development.",
-    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "simiyu.frankline34.com",
     "phone": "+254 790943918",
     "address": {
@@ -121,7 +120,7 @@
         "title": "My Portfolio",
         "category": "My Portfolio  built with ReactJS",
         "image": "portfolio.png",
-        "url": " "
+        "url": ""
       },
       {
         "title": "Moringa Alumni App",

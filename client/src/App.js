@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 //import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
@@ -13,6 +13,16 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 import Chat from './Components/chat/Chat';
+import {createSession} from './actions/watson'
+
+//import axios
+import axios from 'axios';
+
+if (localStorage.session) {
+  axios.defaults.headers.common["session_id"]= localStorage.session;
+}else{
+  delete axios.defaults.headers.common["session_id"];
+}
 
 
 class App extends Component {
@@ -23,7 +33,14 @@ class App extends Component {
       foo: 'bar',
       resumeData: {}
     };
-
+    if (!localStorage.session) {
+      store.dispatch(createSession())
+  }
+  // useEffect(){
+  //   //check if session exists
+  //   if (!localStorage.session) {
+  //     store.dispatch(createSession())
+  //   }
   }
 
   getResumeData(){

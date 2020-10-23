@@ -32,6 +32,20 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+   <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "f128522a-9308-45a7-8489-3e2b6b2f6531", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "b6e0d8d6-0f51-45ba-8480-88e33b3d1893", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  
 
   </body>
 </html>
