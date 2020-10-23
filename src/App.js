@@ -33,9 +33,9 @@ class App extends Component {
       foo: 'bar',
       resumeData: {}
     };
-    if (!localStorage.session) {
-      store.dispatch(createSession())
-  }
+  //   if (!localStorage.session) {
+  //     store.dispatch(createSession())
+  // }
   // useEffect(){
   //   //check if session exists
   //   if (!localStorage.session) {
