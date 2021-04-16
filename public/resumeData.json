@@ -8,7 +8,7 @@
     "email": "simiyu.frankline34.com",
     "phone": "+254 790943918",
     "address": {
-           "city": "Nairobi"
+           "city": "Mombasa"
          },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "https://docs.google.com/document/d/1wDDA-q7XK3ZLjS8NShHCVtE2XJrpUa_soJdGQR6tOL8/edit?usp=sharing",
@@ -98,6 +98,13 @@
   },
   "portfolio": {
     "projects": [
+
+      {
+        "title": "Kuppet TransNzoia County",
+        "category": "Web Application to store Teachers data  ( Laravel, Bootstrap, Xampp, Sql) ",
+        "image": "Kuppet TransNzoia.png",
+        "url": "https://kuppettransnzoiacounty.co.ke/"
+      },
       {
         "title": "Majimaji Wildlife",
         "category": "Tracks animals in a Park  (postregsql, Java, Spark,)",
