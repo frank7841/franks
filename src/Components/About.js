@@ -5,7 +5,6 @@ class About extends Component {
 
     if(this.props.data){
       var name = this.props.data.name;
-      var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
       //var street = this.props.data.address.street;
       var city = this.props.data.address.city;
@@ -38,7 +37,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a className= "button" target="blank" href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a className= "button" target="blank" href={resumeDownload}><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
