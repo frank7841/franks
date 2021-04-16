@@ -34,7 +34,7 @@ class About extends Component {
 						   <span><a href="tell:+254790943918"> {phone}</a></span><br/>
                      <span><a href="mailto:simiyu.frankline34@gmail.com">{email}</a></span>
 					   </p>
-               </div>
+               </div> 
                <div className="columns download">
                   <p>
                      <a className= "button" target="blank" href={resumeDownload}><i className="fa fa-download"></i>Download Resume</a>
