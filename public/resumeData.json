@@ -98,6 +98,12 @@
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Nibora Properties",
+        "category": "Realestate WebApp that allows users to upload listings (python, Django ,postgres, reactJs)",
+        "image": "Nibora properties.png",
+        "url": "https://niboraproperties.co.ke/"
+      },
 
       {
         "title": "Kuppet TransNzoia County",
