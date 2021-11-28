@@ -2,13 +2,13 @@
   "main": {
     "name": "Frankline Simiyu",
     "occupation": "Android and FullStack developer",
-    "description": "Tech enthusiast,Founder . #Neatlabs",
+    "description": "Tech enthusiast,",
     "image": "profpic.jpg",
     "bio": "My name is Frank , I'm an Android, FullStack developer and a tech enthusiast with a deep-rooted passion for solving day-to-day problems through the art of software development.",
     "email": "simiyu.frankline34.com",
     "phone": "+254 790943918",
     "address": {
-           "city": "Mombasa"
+           "city": "Nairobi"
          },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "https://docs.google.com/document/d/1wDDA-q7XK3ZLjS8NShHCVtE2XJrpUa_soJdGQR6tOL8/edit?usp=sharing",
@@ -70,6 +70,15 @@
         "level": "90%"
       },
       {
+        "name": "Svelte",
+        "level": "80%"
+      },
+
+      {
+        "name": "Tailwindcss",
+        "level": "100%"
+      },
+      {
         "name": "Python",
         "level": "75%"
       }, 
@@ -80,6 +89,10 @@
       {
         "name": "AngularJS",
         "level": "90%"
+      },
+      {
+        "name": "Vue",
+        "level": "70%"
       },
       {
         "name": "Java SPark",
@@ -110,6 +123,18 @@
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Komiut",
+        "category": "Website to actualisze cashless payments in matatu industry (laravel, vue)",
+        "image": "komiut.png",
+        "url": "https://komiut.co.ke/"
+      },
+      {
+        "title": "Instadriver",
+        "category": "React website to connect drivers with potential employers (React, Node ,mongodb)",
+        "image": "instadriver.png",
+        "url": "https://instadriver.co/"
+      },
       {
         "title": "Nibora Properties",
         "category": "Realestate WebApp that allows users to upload listings (python, Django ,postgres, reactJs)",
