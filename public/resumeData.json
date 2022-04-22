@@ -136,17 +136,17 @@
         "url": "https://instadriver.co/"
       },
       {
-        "title": "Nibora Properties",
-        "category": "Realestate WebApp that allows users to upload listings (python, Django ,postgres, reactJs)",
-        "image": "Nibora properties.png",
-        "url": "https://niboraproperties.co.ke/"
+        "title": "School Erp",
+        "category": "School ERP System  (Laravel, Mysql)",
+        "image": "bondeni.png",
+        "url": "http://147.182.248.142/login"
       },
 
       {
-        "title": "Kuppet TransNzoia County",
-        "category": "Web Application to store Teachers data  ( Laravel, Bootstrap, Xampp, Sql) ",
+        "title": "Komiut",
+        "category": "Komiut Web application  ( React, Reactstrap, Gatsby, GraphQl) ",
         "image": "Kuppet TransNzoia.png",
-        "url": "https://kuppettransnzoiacounty.co.ke/"
+        "url": "https://komiut.netlify.app/#hero"
       },
       {
         "title": "Majimaji Wildlife",
